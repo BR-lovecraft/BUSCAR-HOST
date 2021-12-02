@@ -8,40 +8,22 @@
 
 PASSO 1: Instale o app TERMUX
 
-PASSO 2: Copie e cole os comandos (esteja conectado a internet quando abrir o app pela primeira vez, e durante a instalação dos comandos abaixo)
+PASSO 2: De acesso de armazenamento ao Termux
 
 termux-setup-storage
 
-apt update && apt upgrade
 
-pkg install git
+PASSO 3: Clone/baixe o repositório
 
-pkg install curl
+git clone https://github.com/olivrae/BUSCAR-HOST.git
 
-pkg install wget
+PASSO 4: Abra a asta, execute o script
 
-pkg install nano
-
-pkg install lynx
-
-pkg install python2
-
-apt-get install curl
-
-apt-get install wget
-
-apt-get install nmap
-
-pip install --upgrade pip
-
-pkg install nmap -y
-
-git clone https://github.com/Oliveirae/BUSCAR-HOST-V2.git
-
-cd BUSCAR-HOST-V2
+cd BUSCAR-HOST
 
 bash BUSCADOR.sh
 
+PASSO 5: ABRA A OPÇÃO "A" E SELECUONE A OPÇÃO DE INSTALAR PROGRAMAS BASICOS PARA USO FUNCIINAL DO SCRIPT
 
 
 OBS: Para abrir o menu caso você precise novamente, use o comando:
